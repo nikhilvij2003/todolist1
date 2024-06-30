@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url('./c23.png') no-repeat center center fixed; 
+  background-size: cover;
+}
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 50px;
+  color: #fff; /* Adjust text color for better visibility on background */
+}
+
+.App-header {
+  display: inline-block;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.5); /* Add background color to header for better contrast */
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 250px;
+  margin-right: 10px;
+  color: #000; /* Input text color */
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  color: #fff; /* List item text color */
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: grey;
+}
+
+li span {
+  flex: 1;
+  text-align: left;
+}
+
+li button {
+  background-color: #dc3545;
+  margin-left: 10px;
+}
+
+li button:hover {
+  background-color: #c82333;
+}
+
+li input {
+  flex: 1;
+  padding: 8px;
+}
+
+li input {
+  width: 70%;
+  padding: 8px;
+}
